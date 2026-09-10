@@ -1,3 +1,7 @@
+from sqlalchemy import Boolean, Column, Integer, String
+
+from app.database import BaseBanco
+
 class Livro(BaseBanco):
     __tablename__ = "livros"
 
